@@ -118,12 +118,12 @@ Categorizes whether patients were attended to within 30 minutes.
 ├── 📄 README.md
 ├── 📄 ER_Intelligence_Dashboard.xlsx
 └── 📁 screenshots/
-    ├── final_dashboard.png
-    ├── data_model.png
     ├── calendar_table.png
-    ├── power_query_steps.png
+    ├── dashboard_demo.gif
+    ├── data_model.png
     ├── dax_measures.png
-    └── dashboard_demo.gif
+    ├── final_dashboard.png
+    └── power_query_steps.png
 
 ```
 
