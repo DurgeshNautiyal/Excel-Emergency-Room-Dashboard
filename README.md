@@ -23,7 +23,7 @@ To create a data-driven **Emergency Room Intelligence Dashboard** using **10,000
 | KPI | Description |
 |-----|-------------|
 | **Number of Patients** | Total patients per month to spot peak activity |
-| **Average Wait Time** | Average daily patient wait time; highlights operational delays |
+| **Average Wait Time** | Average monthly patient wait time; highlights operational delays |
 | **Patient Satisfaction Score** | Tracks monthly average satisfaction to monitor service quality |
 
 ---
