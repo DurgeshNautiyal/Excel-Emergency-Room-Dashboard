@@ -88,7 +88,7 @@ Categorizes whether patients were attended to within 30 minutes.
 | Chart Base | `#ccecee` | Soft aqua |
 | Primary Bars | `#14967f` | Teal green |
 | Comparison Bars | `#14967f` | Teal green |
-| Highlights  | `#e2fcd6` | Light green |
+| KPI Background  | `#e2fcd6` | Light green |
 
 ---
 
