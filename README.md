@@ -111,26 +111,20 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ---
 
-## 🎥 Project Walkthrough Video
-[![Dashboard Walkthrough](screenshots/video_thumbnail.png)](https://your-video-link-here)
-
-🔗 *Click the image above to watch a walkthrough of dashboard features.*
-
----
 
 ## 📂 Folder Structure
 ```
 📁 emergency-room-intelligence-dashboard/
 ├── 📄 README.md
 ├── 📊 ER_Intelligence_Dashboard.xlsx
-├── 📁 screenshots/
-│   ├── final_dashboard.png
-│   ├── data_model.png
-│   ├── calendar_table.png
-│   ├── power_query_steps.png
-│   ├── dax_measures.png
-│   └── video_thumbnail.png
-└── 🎥 dashboard_walkthrough.gif
+└── 📁 screenshots/
+    ├── final_dashboard.png
+    ├── data_model.png
+    ├── calendar_table.png
+    ├── power_query_steps.png
+    ├── dax_measures.png
+    └── video_thumbnail.png
+
 ```
 
 ---
