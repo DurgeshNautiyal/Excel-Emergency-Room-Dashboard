@@ -19,7 +19,7 @@ To create a data-driven **Emergency Room Intelligence Dashboard** using **10,000
 
 ---
 
-##  Key KPIs
+##  KPIs
 | KPI | Description |
 |-----|-------------|
 | **Number of Patients** | Total patients per day to spot peak activity |
