@@ -11,18 +11,18 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 ---
 
 ##  Tools & Technologies
-- ✅ Microsoft Excel (with Power Query & Power Pivot)
-- ✅ Pivot Tables & Pivot Charts
-- ✅ DAX (Data Analysis Expressions)
-- ✅ Calendar Table for time intelligence
-- ✅ Custom Healthcare-themed Color Palette
+-  Microsoft Excel (with Power Query & Power Pivot)
+-  Pivot Tables & Pivot Charts
+-  DAX (Data Analysis Expressions)
+-  Calendar Table for time intelligence
+-  Custom Healthcare-themed Color Palette
 
 ---
 
 ##  Key KPIs
 | KPI | Description |
 |-----|-------------|
-| **Number of Patients** | Total patients per day with area sparkline to spot peak activity |
+| **Number of Patients** | Total patients per day to spot peak activity |
 | **Average Wait Time** | Average daily patient wait time; highlights operational delays |
 | **Patient Satisfaction Score** | Tracks daily average satisfaction to monitor service quality |
 
@@ -87,8 +87,8 @@ Categorizes whether patients were attended to within 30 minutes.
 | Background | `#f1f9ff` | Very light blue |
 | Chart Base | `#ccecee` | Soft aqua |
 | Primary Bars | `#14967f` | Teal green |
-| Comparison Bars | `#095d7e` | Dark blue |
-| Highlights (Good) | `#e2fcd6` | Light green (positive) |
+| Comparison Bars | `#14967f` | Teal green |
+| Highlights  | `#e2fcd6` | Light green |
 
 ---
 
