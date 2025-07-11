@@ -1,7 +1,5 @@
 # 🏥 Emergency Room Intelligence Dashboard
-
 ![Final Dashboard](screenshots/final_dashboard.png)
-
 [![Watch the video](screenshots/video_thumbnail.png)](https://your-video-link-here)
 
 An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and support hospital decision-making using **Power Query**, **Power Pivot**, and **DAX**.
@@ -9,13 +7,11 @@ An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and
 ---
 
 ## 🎯 Project Purpose
-
 To create a data-driven **Emergency Room Intelligence Dashboard** that improves patient management efficiency and delivers actionable insights for hospital stakeholders. The dashboard helps analyze ER performance metrics, detect bottlenecks, and track service quality over time.
 
 ---
 
 ## 🛠 Tools & Technologies
-
 - ✅ Microsoft Excel (with Power Query & Power Pivot)
 - ✅ Pivot Tables & Pivot Charts
 - ✅ DAX (Data Analysis Expressions)
@@ -25,7 +21,6 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 ---
 
 ## 📊 Key KPIs
-
 | KPI | Description |
 |-----|-------------|
 | **Number of Patients** | Total patients per day with area sparkline to spot peak activity |
@@ -35,7 +30,6 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 ---
 
 ## 📈 Additional Visuals
-
 - Patient Admission Status (Admitted vs Not Admitted)
 - Patient Age Distribution (10-year age bands)
 - Timeliness (% seen within 30 mins)
@@ -45,7 +39,6 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 ---
 
 ## 🔗 Data Model
-
 **Tables:**
 - `Calendar`: Dynamic date table (generated with Power Query)
 - `Emergency Room Data`: Main patient data (Patient ID, Date, Department, etc.)
@@ -58,7 +51,6 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 ## 🧮 DAX Calculated Columns
 
 ### 🧓 Age Group
-
 ```dax
 = FORMAT(
     INT('Emergency Room Data'[Patient Age] / 10) * 10,
@@ -69,3 +61,86 @@ FORMAT(
     INT('Emergency Room Data'[Patient Age] / 10) * 10 + 9,
     "00"
 )
+```
+Groups patient age into 10-year intervals (e.g., 20–29, 30–39).
+
+### ⏱ Patient Attend Status
+```dax
+= IF('Emergency Room Data'[Patient Waittime] > 30, "Delay", "On Time")
+```
+Categorizes whether patients were attended to within 30 minutes.
+
+---
+
+## 🗓 Calendar Table (Power Query)
+```powerquery
+= List.Dates(#date(2023, 01, 01), 700, #duration(1, 0, 0, 0))
+```
+
+**Additional columns added:**
+- Year, Month, Quarter, Week Number, Day Name, IsWeekend
+
+---
+
+## 🎨 Color Palette Used
+| Purpose | Hex Code | Description |
+|---------|----------|-------------|
+| Background | `#f1f9ff` | Very light blue |
+| Chart Base | `#ccecee` | Soft aqua |
+| Primary Bars | `#14967f` | Teal green |
+| Comparison Bars | `#095d7e` | Dark blue |
+| Highlights (Good) | `#e2fcd6` | Light green (positive) |
+
+---
+
+## 📸 Screenshots
+
+### 🖼 Final Dashboard
+![Final Dashboard](screenshots/final_dashboard.png)
+
+### 🔗 Data Model View (Relationships)
+![Data Model](screenshots/data_model.png)
+
+### 📅 Calendar Table (Power Query)
+![Calendar Table](screenshots/calendar_table.png)
+
+### ⚙ Applied Steps (Power Query)
+![Power Query Steps](screenshots/power_query_steps.png)
+
+### 📐 DAX Calculated Columns
+![DAX Measures](screenshots/dax_measures.png)
+
+---
+
+## 🎥 Project Walkthrough Video
+[![Dashboard Walkthrough](screenshots/video_thumbnail.png)](https://your-video-link-here)
+
+🔗 *Click the image above to watch a walkthrough of dashboard features.*
+
+---
+
+## 📂 Folder Structure
+```
+📁 emergency-room-intelligence-dashboard/
+├── 📄 README.md
+├── 📊 ER_Intelligence_Dashboard.xlsx
+├── 📁 screenshots/
+│   ├── final_dashboard.png
+│   ├── data_model.png
+│   ├── calendar_table.png
+│   ├── power_query_steps.png
+│   ├── dax_measures.png
+│   └── video_thumbnail.png
+└── 🎥 dashboard_walkthrough.mp4
+```
+
+---
+
+## 🙌 Acknowledgments
+Created by **Ram Rana** as a portfolio project to demonstrate Excel-based reporting and healthcare analytics.
+
+---
+
+## 📬 Contact
+📧 ram@example.com  
+🔗 LinkedIn
