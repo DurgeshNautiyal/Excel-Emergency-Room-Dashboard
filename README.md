@@ -6,7 +6,7 @@ An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and
 ---
 
 ##  Project Purpose
-To create a data-driven **Emergency Room Intelligence Dashboard** that improves patient management efficiency and delivers actionable insights for hospital stakeholders. The dashboard helps analyze ER performance metrics, detect bottlenecks, and track service quality over time.
+To create a data-driven **Emergency Room Intelligence Dashboard** using **10,000 patient records** that improves patient management efficiency and delivers actionable insights for hospital stakeholders. The dashboard helps analyze ER performance metrics, detect bottlenecks, and track service quality over time.
 
 ---
 
@@ -38,6 +38,8 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 ---
 
 ##  Data Model
+**Dataset Size:** The dashboard is built using a dataset of **10,000 records.**
+
 **Tables:**
 - `Calendar`: Dynamic date table (generated with Power Query)
 - `Emergency Room Data`: Main patient data (Patient ID, Date, Department, etc.)
