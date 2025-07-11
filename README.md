@@ -1,16 +1,16 @@
-# 🏥 Emergency Room Intelligence Dashboard
+#  Emergency Room Intelligence Dashboard
 ![Dashboard Demo](screenshots/dashboard_demo.gif)
 
 An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and support hospital decision-making using **Power Query**, **Power Pivot**, and **DAX**.
 
 ---
 
-## 🎯 Project Purpose
+##  Project Purpose
 To create a data-driven **Emergency Room Intelligence Dashboard** that improves patient management efficiency and delivers actionable insights for hospital stakeholders. The dashboard helps analyze ER performance metrics, detect bottlenecks, and track service quality over time.
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 - ✅ Microsoft Excel (with Power Query & Power Pivot)
 - ✅ Pivot Tables & Pivot Charts
 - ✅ DAX (Data Analysis Expressions)
@@ -19,7 +19,7 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 
 ---
 
-## 📊 Key KPIs
+##  Key KPIs
 | KPI | Description |
 |-----|-------------|
 | **Number of Patients** | Total patients per day with area sparkline to spot peak activity |
@@ -28,16 +28,16 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 
 ---
 
-## 📈 Additional Visuals
+##  Additional Visuals
 - Patient Admission Status (Admitted vs Not Admitted)
 - Patient Age Distribution (10-year age bands)
-- Timeliness (% seen within 30 mins)
+- Timeliness (seen within 30 mins)
 - Gender Analysis (Male vs Female)
 - Department Referrals (Top referred departments)
 
 ---
 
-## 🔗 Data Model
+##  Data Model
 **Tables:**
 - `Calendar`: Dynamic date table (generated with Power Query)
 - `Emergency Room Data`: Main patient data (Patient ID, Date, Department, etc.)
@@ -47,9 +47,9 @@ To create a data-driven **Emergency Room Intelligence Dashboard** that improves 
 
 ---
 
-## 🧮 DAX Calculated Columns
+##  DAX Calculated Columns
 
-### 🧓 Age Group
+###  Age Group
 ```dax
 = FORMAT(
     INT('Emergency Room Data'[Patient Age] / 10) * 10,
@@ -63,7 +63,7 @@ FORMAT(
 ```
 Groups patient age into 10-year intervals (e.g., 20–29, 30–39).
 
-### ⏱ Patient Attend Status
+###  Patient Attend Status
 ```dax
 = IF('Emergency Room Data'[Patient Waittime] > 30, "Delay", "On Time")
 ```
@@ -71,7 +71,7 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ---
 
-## 🗓 Calendar Table (Power Query)
+##  Calendar Table (Power Query)
 ```powerquery
 = List.Dates(#date(2023, 01, 01), 700, #duration(1, 0, 0, 0))
 ```
@@ -81,7 +81,7 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ---
 
-## 🎨 Color Palette Used
+##  Color Palette Used
 | Purpose | Hex Code | Description |
 |---------|----------|-------------|
 | Background | `#f1f9ff` | Very light blue |
@@ -94,19 +94,19 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ## 📸 Screenshots
 
-### 🖼 Final Dashboard
+###  Final Dashboard
 ![Final Dashboard](screenshots/final_dashboard.png)
 
-### 🔗 Data Model View (Relationships)
+###  Data Model View (Relationships)
 ![Data Model](screenshots/data_model.png)
 
-### 📅 Calendar Table (Power Query)
+###  Calendar Table (Power Query)
 ![Calendar Table](screenshots/calendar_table.png)
 
-### ⚙ Applied Steps (Power Query)
+###  Applied Steps (Power Query)
 ![Power Query Steps](screenshots/power_query_steps.png)
 
-### 📐 DAX Calculated Columns
+###  DAX Calculated Columns
 ![DAX Measures](screenshots/dax_measures.png)
 
 ---
@@ -116,7 +116,7 @@ Categorizes whether patients were attended to within 30 minutes.
 ```
 📁 emergency-room-intelligence-dashboard/
 ├── 📄 README.md
-├── 📊 ER_Intelligence_Dashboard.xlsx
+├── 📄 ER_Intelligence_Dashboard.xlsx
 └── 📁 screenshots/
     ├── final_dashboard.png
     ├── data_model.png
@@ -129,8 +129,8 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ---
 
-## 🙌 Acknowledgments
-Created by **Ram Rana** as a portfolio project to demonstrate Excel-based reporting and healthcare analytics.
+##  Acknowledgments
+Created by **Durgesh Nautiyal** as a portfolio project to demonstrate Excel-based reporting and healthcare analytics.
 
 ---
 
