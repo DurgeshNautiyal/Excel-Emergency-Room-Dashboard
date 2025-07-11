@@ -123,7 +123,7 @@ Categorizes whether patients were attended to within 30 minutes.
     ├── calendar_table.png
     ├── power_query_steps.png
     ├── dax_measures.png
-    └── video_thumbnail.png
+    └── dashboard_demo.gif
 
 ```
 
