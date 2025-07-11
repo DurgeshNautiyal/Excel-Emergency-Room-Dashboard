@@ -134,6 +134,6 @@ Created by **Durgesh Nautiyal** as a portfolio project to demonstrate Excel-base
 
 ---
 
-## 📬 Contact
-📧 ram@example.com  
-🔗 LinkedIn
+## 📞 Contact Me
+📩 durgeshnautiyal11@gmail.com     
+🔗 [LinkedIn](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
