@@ -99,6 +99,15 @@ Categorizes whether patients were attended to within 30 minutes.
 ###  Final Dashboard
 ![Final Dashboard](screenshots/final_dashboard.png)
 
+###  Daily Emergency Room Visits
+![Final Dashboard](screenshots/daily_er_visits.png)
+
+###  Daily Average Patient Wait Time
+![Final Dashboard](screenshots/avg_wait_time.png)
+
+###  Daily Average Patient Satisfaction Score
+![Final Dashboard](screenshots/score.png)
+
 ###  Data Model View (Relationships)
 ![Data Model](screenshots/data_model.png)
 
