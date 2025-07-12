@@ -126,15 +126,18 @@ Categorizes whether patients were attended to within 30 minutes.
 ## 📂 Folder Structure
 ```
 📁 emergency-room-intelligence-dashboard/
-├── 📄 README.md
-├── 📄 ER_Intelligence_Dashboard.xlsx
+├──  README.md
+├──  ER_Intelligence_Dashboard.xlsx
 └── 📁 screenshots/
+    ├── avg_wait_time.png
     ├── calendar_table.png
+    ├── daily_er_visits.png
     ├── dashboard_demo.gif
     ├── data_model.png
     ├── dax_measures.png
     ├── final_dashboard.png
-    └── power_query_steps.png
+    ├── power_query_steps.png
+    └── score.png
 
 ```
 
