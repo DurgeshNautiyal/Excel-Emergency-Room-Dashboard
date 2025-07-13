@@ -131,7 +131,7 @@ Categorizes whether patients were attended to within 30 minutes.
 ---
 
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 📁 emergency-room-intelligence-dashboard/
 ├──  README.md
