@@ -102,7 +102,7 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ###  Final Dashboard
 ![Final Dashboard](screenshots/final_dashboard.png)
