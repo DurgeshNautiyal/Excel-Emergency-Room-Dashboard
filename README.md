@@ -5,6 +5,14 @@ An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and
 
 ---
 
+## Download ER Intelligence Dashboard
+
+You can download the **ER Intelligence Dashboard** Excel file below:
+
+**[Download ER_Intelligence_Dashboard.xlsx](./ER_Intelligence_Dashboard.xlsx)**
+
+---
+
 ##  Project Purpose
 To create a data-driven **Emergency Room Intelligence Dashboard** using **10,000 patient records** that improves patient management efficiency and delivers actionable insights for hospital stakeholders. The dashboard helps analyze ER performance metrics, detect bottlenecks, and track service quality over time.
 
