@@ -5,18 +5,40 @@ An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and
 
 ---
 
+## Screenshots
+
+###  Final Dashboard
+![Final Dashboard](screenshots/final_dashboard.png)
+
+###  Daily Emergency Room Visits
+![Final Dashboard](screenshots/daily_er_visits.png)
+
+###  Daily Average Patient Wait Time
+![Final Dashboard](screenshots/avg_wait_time.png)
+
+###  Daily Average Patient Satisfaction Score
+![Final Dashboard](screenshots/score.png)
+
+###  Data Model View (Relationships)
+![Data Model](screenshots/data_model.png)
+
+###  Calendar Table (Power Query)
+![Calendar Table](screenshots/calendar_table.png)
+
+###  Applied Steps (Power Query)
+![Power Query Steps](screenshots/power_query_steps.png)
+
+###  DAX Calculated Columns
+![DAX Measures](screenshots/dax_measures.png)
+
 ## Download ER Intelligence Dashboard
 
 You can download the **ER Intelligence Dashboard** Excel file below:
 
 **[Download ER_Intelligence_Dashboard.xlsx](./ER_Intelligence_Dashboard.xlsx)**
 
----
-
 ##  Project Purpose
 To create a data-driven **Emergency Room Intelligence Dashboard** using **10,000 patient records** that improves patient management efficiency and delivers actionable insights for hospital stakeholders. The dashboard helps analyze ER performance metrics, detect bottlenecks, and track service quality over time.
-
----
 
 ##  Tools & Technologies
 -  Microsoft Excel (with Power Query & Power Pivot)
@@ -102,33 +124,6 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ---
 
-## Screenshots
-
-###  Final Dashboard
-![Final Dashboard](screenshots/final_dashboard.png)
-
-###  Daily Emergency Room Visits
-![Final Dashboard](screenshots/daily_er_visits.png)
-
-###  Daily Average Patient Wait Time
-![Final Dashboard](screenshots/avg_wait_time.png)
-
-###  Daily Average Patient Satisfaction Score
-![Final Dashboard](screenshots/score.png)
-
-###  Data Model View (Relationships)
-![Data Model](screenshots/data_model.png)
-
-###  Calendar Table (Power Query)
-![Calendar Table](screenshots/calendar_table.png)
-
-###  Applied Steps (Power Query)
-![Power Query Steps](screenshots/power_query_steps.png)
-
-###  DAX Calculated Columns
-![DAX Measures](screenshots/dax_measures.png)
-
----
 
 
 ## Folder Structure
@@ -149,12 +144,8 @@ Categorizes whether patients were attended to within 30 minutes.
 
 ```
 
----
-
 ##  Acknowledgments
 Created by **Durgesh Nautiyal** as a portfolio project to demonstrate Excel-based reporting and healthcare analytics.
-
----
 
 ## 📞 Contact Me
 📩 durgeshnautiyal11@gmail.com     
