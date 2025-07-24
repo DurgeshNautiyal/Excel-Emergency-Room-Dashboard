@@ -147,6 +147,6 @@ Categorizes whether patients were attended to within 30 minutes.
 ##  Acknowledgments
 Created by **Durgesh Nautiyal** as a portfolio project to demonstrate Excel-based reporting and healthcare analytics.
 
-## 📞 Contact Me
-📩 durgeshnautiyal11@gmail.com     
-🔗 [LinkedIn](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
+## Contact Me
+durgeshnautiyal11@gmail.com     
+[LinkedIn](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
