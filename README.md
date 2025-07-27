@@ -1,4 +1,7 @@
 #  Emergency Room Intelligence Dashboard
+
+**Intelligence Dashboard (Live Link):** [View Dashboard](https://1drv.ms/x/c/cd89ad4bb1755907/EecfzLOgi9RHnP55UTbm_s0BZHkeczctDjjkmQrggU0vkg?e=me3ijZ)
+
 ![Dashboard Demo](screenshots/dashboard_demo.gif)
 
 An interactive **Excel dashboard** to analyze Emergency Room (ER) operations and support hospital decision-making using **Power Query**, **Power Pivot**, and **DAX**.
